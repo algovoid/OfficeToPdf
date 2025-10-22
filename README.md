@@ -32,8 +32,8 @@ Console usage:
   OfficeToPdf.exe <input-file-or-folder> <output-folder> [maxWorkers]
 
 Examples:
-  OfficeToPdf.exe "C:\toConvert" "C:\pdfs" 2
-  OfficeToPdf.exe "C:\toConvert\report.docx" "C:\pdfs"
+- OfficeToPdf.exe "C:\toConvert" "C:\pdfs" 2
+- OfficeToPdf.exe "C:\toConvert\report.docx" "C:\pdfs"
 
 Notes
 -----
