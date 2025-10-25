@@ -37,9 +37,9 @@ Examples:
 
 Notes
 -----
-- The program processes files in the top-level of the input folder only (no recursion). Modify `GatherOfficeFiles` to add recursion.
+- The program processes files in the top-level of the input folder only (no recursion).
 - Worker threads are STA and each owns its own Office Application instance.
-- Logs to console; redirect console output to file to keep persistent logs.
+- Logs to console;
 
 Troubleshooting
 ---------------
@@ -47,8 +47,4 @@ Troubleshooting
   - Check you didn't run multiple incompatible versions of Office on the same machine.
   - Ensure the process had permission to access desktop and COM. Restart machine if needed.
 - If fonts are missing: ensure the machine has the required fonts installed.
-- If file is locked: the converter will log and skip. Consider adding a retry/backoff in `OfficeWorker`.
-
-Extending
----------
-- Add PowerPoint support .
+- If file is locked: the converter will log and skip.
