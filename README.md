@@ -17,7 +17,7 @@ Prerequisites
 - Windows Desktop OS (Office Interop requires Windows + Microsoft Office)
 - Microsoft Office installed (Word and Excel). Tested with Office 2016 / Office 2019 / Microsoft 365 desktop installs.
 - .NET 8.0 SDK for build (project targets net8.0 LTS in sample).
-- NuGet packages: Microsoft.Office.Interop.Word and Microsoft.Office.Interop.Excel (see csproj example).
+- NuGet packages: Microsoft.Office.Interop.Word and Microsoft.Office.Interop.Excel.
 
 Build
 -----
